@@ -17,5 +17,3 @@ export async function login(req:Request,res:Response) {
         return res.status(409).json({ message: `wrong password` });
     }
 }
-
-//[구현] auth - 로그인 기능

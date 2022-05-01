@@ -23,6 +23,3 @@ export async function findUserById(user:any){
 //         return result[0][0];
 //     })
 // }
-
-
-//[구현] auth - 로그인 기능
