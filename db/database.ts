@@ -8,3 +8,5 @@ const pool = mysql.createPool({
 })
 
 export const db = pool.promise()
+
+//db 설정
