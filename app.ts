@@ -13,5 +13,3 @@ app.get('/login', login);
 app.listen(process.env.PORT||4000,()=>{
     console.log('4000번 포트에서 대기중');
   })
-
-  //초기 설정
